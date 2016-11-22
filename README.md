@@ -28,7 +28,7 @@ Build some wheels series-TimerButton
  
 #使用场景
 #Use scenario
- * 1-The most simple use, when you just need a simple timing
+ * 1-The most simple to use, when you just need a simple timing
  * -完成简单的计时逻辑即可
  
  <pre><code>
