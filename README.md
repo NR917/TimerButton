@@ -1,5 +1,14 @@
 # TimerButton
 #计时按钮
+
+* uses immediately
+
+![image](https://github.com/NR917/TimerButton/raw/master/pic1.gif)
+
+* some setting
+
+![image](https://github.com/NR917/TimerButton/raw/master/pic4.gif)
+
 Build some wheels series-TimerButton
  * 1-provide duration setting
  * -提供计时时长设置
