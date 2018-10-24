@@ -1,35 +1,25 @@
 # TimerButton
-#计时按钮
 
-* uses immediately
+
+* uses 
 
 ![image](https://github.com/NR917/TimerButton/raw/master/pic1.gif)
 
-* some setting
+* setting
 
 ![image](https://github.com/NR917/TimerButton/raw/master/pic4.gif)
 
 Build some wheels series-TimerButton
- * 1-provide duration setting
  * -提供计时时长设置
- * 2-provide forward and reverse timing mode，default reverse mode；
  * -提供正序和逆序计时，默认逆序倒数计时
- * 3-provide timing start callback，it receive a variable of boolean type to decide whether response onClick event this time；
  * -提供计时开始回调，接收布尔值，return true则点击开始计时；return false则不开始，用于一些场景业务逻辑的判断需要，比如两次输入密码是否一致后再发送验证码
- * 4-provide timing finish callback
  * -提供计时完成回调onTimeFinish
- * 5-provide every second callback
  * -提供每一秒计时回调onEverySecond
- * 6-provide public method to control start and cancel
  * -提供开始计时和结束计时方法
- * How to use
+ * 如何使用
  * -1，setTimerDuration;2,.autoMode() or .manusalMode();3,setOnEverySecondeLIstener;
  * -使用方法：1，setTimerDuration；2，autoMode（自动或手动）；3，setOnEverySecondListener；
  
-#使用场景
-#Use scenario
- * 1-The most simple to use, if you just need a simple timing
- * -完成简单的计时逻辑即可
  
  <pre><code>
  btn = (TimerButton) findViewById(R.id.btn);
@@ -53,10 +43,9 @@ Build some wheels series-TimerButton
         });
  </code></pre>
  
- * 2-Logic to decide
  * -逻辑判断
  
- >Eample：if you need to decide start timing after you do something, you can uses like this
+ >Eample：
  
  <pre><code>
  btn = (TimerButton) findViewById(R.id.btn);
